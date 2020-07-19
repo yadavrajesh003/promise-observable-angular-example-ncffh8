@@ -1,0 +1,14 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Wait to see some magic happen :)
+</p>
+
+<div *ngFor='let item of subscriptionUsers'>
+    {{item.name}} (subscription)
+</div>
+<hr>
+<div *ngFor='let item of promiseUsers'>
+    {{item.name}} (promise)
+</div>
+
+
